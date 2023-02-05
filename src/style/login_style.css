@@ -1,0 +1,16 @@
+.sign_title {
+    font-size: 80px;
+}
+
+.btn {
+    height: 70px;
+    width: 300px;
+    cursor: pointer;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: dodgerblue;
+}

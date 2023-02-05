@@ -1,0 +1,72 @@
+.rides_offered_div {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 5%;
+    margin-top: 1%;
+    margin-bottom: 5%;
+}
+
+.danger_btn {
+    height: 60px;
+    width: 200px;
+    background-color: red;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    margin: 30px;
+    cursor: pointer;
+}
+
+.rides_offered>h2 {
+    font-size: 40px;
+}
+
+.rides_offered {
+    margin-top: 5%;
+}
+
+.left>h1 {
+    font-size: 60px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 5%;
+}
+
+.offered {
+    height: 100px;
+    width: 350px;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    background-color: green;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.requests {
+    height: 100px;
+    width: 270px;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.post_request {
+    height: 200px;
+    width: 400px;
+    border: 2px solid black;
+}
